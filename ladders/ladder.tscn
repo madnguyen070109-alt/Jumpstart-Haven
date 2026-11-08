@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://553m1xfcxjku"]
+
+[ext_resource type="Texture2D" uid="uid://ke0xe7fmj1iv" path="res://Ladder.png" id="1_rf3se"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_54dac"]
+
+[node name="Area2D" type="Area2D" unique_id=316787799]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1956491982]
+texture = ExtResource("1_rf3se")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=997294031]
+shape = SubResource("RectangleShape2D_54dac")
